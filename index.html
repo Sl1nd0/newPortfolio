@@ -40,7 +40,7 @@
                         phone: phone,
                         message: message
                     }
-                    alert('Sending email');
+                    alert('Emails are down for now.');
                     //alert(JSON.stringify($('#contactForm').serialize()))
                     let dataNew = encodeURI(JSON.stringify(myJson));
                     $.get("https://mailServer.nkabinde.repl.co/test/" + dataNew, function (data, status) {
